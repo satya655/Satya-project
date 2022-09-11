@@ -1,0 +1,148 @@
+`
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<script type="text/javascript" src="Team.json"></script>
+
+<body background="https://www.insidesport.in/wp-content/uploads/2021/09/IPL-2020-2-1-1-7-1.jpg">
+<body>
+    <style>
+    * {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #e9e9e9;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #2196F3;
+      color: white;
+    }
+    
+    .topnav input[type=text] {
+      float: right;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      border: none;
+      font-size: 17px;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <input type="text" placeholder="Search..">
+    </div>
+    
+    <div style="padding-left:16px">
+        <p>csk</p>
+        <p>dc</p>
+        <p>pk</p>
+    </div>
+    </body>
+    <div class="container ">
+        <div class="mx-5 my-3" style="display: flex; flex-direction:row;">
+            <a class="card mx-5" href="./CSK.html" style="width: 50%; height: 300px;">
+                <img src="https://pixlok.com/wp-content/uploads/2021/01/CSK_Logo_with_satin_flag.jpg" width="100%"
+                    height="100%" />
+            </a>
+            <a class="card mx-5" href="./DC.html" style="width: 50%; height: 300px;">
+                <img src="https://pixlok.com/wp-content/uploads/2021/01/DC_Logo_With_Background.jpg" width="100%"
+                    height="100%" />
+
+            </a>
+        </div>
+        <div class="container ">
+            <div class="mx-5 my-3" style="display: flex; flex-direction:row;">
+                <a class="card mx-5" href="./PK.html" style="width: 50%; height: 300px;">
+                    <img src="https://cdn.wionews.com/sites/default/files/inline-images/KingsPunjab.jpg" width="100%"
+                        height="100%" />
+                </a>
+                <a class="card mx-5" href="./KKR.html" style="width: 50%; height: 300px;">
+                    <img src="https://sportzcraazy.com/wp-content/uploads/2020/01/kkr-logo.jpg" width="100%"
+                        height="100%" />
+    
+                </a>
+            </div> 
+            <div class="container ">
+                <div class="mx-5 my-3" style="display: flex; flex-direction:row;">
+                    <a class="card mx-5" href="./MI.html" style="width: 50%; height: 300px;">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEA8PEBAPDxAPDw8PEA8PFRAPDxAPFRUWFhUSFRUYHSggGBoxHhUVIj0iJSkrLi4uGCAzOjMsNygtLisBCgoKDg0OGhAQGi0lIB0uLS0tLS0tLS0tLzAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQIFAwYHBAj/xABEEAACAgIAAwUEBgYGCgMAAAABAgADBBEFEiEGEzFBUSIyYYEHFCNCcZFSYnKCobEVM1ODwfAWFyRDVGOSk9HSNHOi/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/EADQRAAICAQIDBgQEBgMAAAAAAAABAhEDITESQVEEE2FxgaEikbHwBTLR4QZSYnLB8RQVgv/aAAwDAQACEQMRAD8A8dlELE+rR5ixETRBEksoEsQIoE1AEollBNQJlJLQsREsULMQI3EQARLJLAJqNSyQCyaiWAJDEQLGoMS6gWSDGpZKFgSaliKQskQZZEkLMRKYiGgSI1EgERLAJGpAI1JZS6jpES2Qy2JjuNQBLqBuXcajUUyWQmXcajUaiybjcyiWmQx3G5lEUwTcm5Y3IaJLG5dyAm43EQCbjcalEAm43GpRLQobjZiWWvEUY80bll1FMg5o5pNRqFZaLzSc3wgCNRqQc3wjYjUaktoo2IBEak1JqKEupJNS6kEupA0bMlpmigS6mPWAJUQy1G5jMhGoHWXrES0NSSalMkjAMREgEQBPoqxWboAevQfEyqLewbS3PngTvPZ76L+I5QDd13FZ695kE1gj4LosfynovBvoYxE0cm6y4+a16qT8+pP8JynlhDd/LUJOWyPA1rJ8jPop4fa/REdv2QW/lP1Lw7sTwzH0K8OgkeDWL3zfm+zN5VSiDSqqgeSgKPyE4y7XHkjfdS6n5MXsxmnwxckj17q3/wBZl/orm/8AC5P/AGbf/WfqizidKv3XeBrPHu03ZZr1KrsgfE9J9XejW29j9ogamf8Al/0+7HdP+b2PyLkcDyK/fptT9tHQfxE+JqCPKfr5+JY/g19H4GxP5bmv4l2X4dlr9ri49nN/vFVVf8Q66P8AGbj2uPOPuR45cmfk7Zk5jPcu0v0NVsC+DaUYdRRedqfgtg6j57/GeP8AGeC34ljVX1tU6+KsP4g+BHxE9EMkZ/lf6mXa0kjXc0nPMpjqbdkHMZeeSIplobjcajUagbjcajUmoG5diTUhEupKMtiJOWTUWxRdSajUTLZRERKgI3BgSgRqBLNACWIksWJDLElETMdTJUJ6ATOpCxAA8Z7R2B+juqhK8ziK7dtGnEI2ST7pdfvN+r5efw55MkMUeKbKk5OkdQ7EfRnlZ3La4+r45/3rg8zj/lr978TofjPbezfYrBwADVUGtA6326e3fqCei/u6n35fEFoQWXsKU6KlS+07HyUBerN8F/jOXDuucc7oKU8Qjaa0j9bXRfw6/iJ8+XaJ5F0XQ6KMFKrtmx1Pg4vxWjEra6+xa618zskn9FQOrH4CaW7tbUuPbmA89AsajGVP6zKtUlTyfDmBA+ClvAzzax8ziOf3lrhTjkMza5qcUnqFqU9Cw/SPiV2egAnN8EE5ZJcKim36faNSlJ0oK29Pv01O98S7bLT7ViMLOXnTCUqLlrPhZlP7tI/V3v8AE9B0rK7U52eXdmsqxF8a8Zji1P8At5Te3y+XsjZ9B4zc09nKm1zqTUrc4qclmus/tshj1dvQH5+Ohs24bWdbAYr7u/dT05V8F/Hx+M+Fl/iPBitQjb6vl+/stteXsx9hlN3N6eHP9vr1R0S3jWfyGrDBop2SVxE+rVsT4sbX+0sPq2xuawZVKMDlUNnuNH/bMu11B9O7RTsftMZ33iXClOyRzftksv5eH8J03jGF3QJ+q0so/s/ZIH4co/hue3sP4ys/wpVfkm/Vtex7X+F4uFyb282l6RTfub/gXbp6gPq/AqhX5HCSxd/EEU6P5zsVfanCyzrLTiXD2Pgbzk49H/Wh5R+9qeXcH7SXYjh8W+yj/lMWtx3HmGQ9PmNH4z2Ds52u+vYxyEQc9WlysU9WQ/p1t95SNkb9NdCJ9ftEVCPE4NL3/wAr5WfHeNOXCpxkntT08takn4NI4OIdmslF7/AzL20OYVs/OGHj7JPst8x19Zq2WvjlFmHlKtebSrNRfrlOx0II8uugV+Y6jp6Bwp6Wr5qFVUYklVAUBvPYHgZ0viuP3HG8Z06d+VZgPDbB0f8AkD+M8sZ1U4M8WfE+zzUo3TajKPLXS10p9D8+cSw3otsqdSr1uyMp8mU6InzzvX0yUKnFcnQ9/unP7RrXf8p0SfajJOKfVHRdOgkliatFTLJGpQIIYzKNQYBJDKYIhlskGNSyWUmpJRLqSgY9JJZQJmwNRLJFiyxESkEREEEARM6R1EJciN0rPU/oi7L1kPxPJUGrHOqVPg9w+9rz1sa+J+E9Ywn9h87IOtIzIPKqnW+nxPrNGMQY+Fw7CXoDXWz683bWyf3mY/lOx9qMZnwsiusbbuvZUeYXR5R8hPg5Mr7R2mXTHVLx/b/J7nHuezcS1lK36Ll6s0fZRTmWniOTrq7VYdR92tRsMVH6XQjfwPyy+k3irU4i01kq+W/c8w6FatE2EfLS/vTS52ZYnBcLIxm02JkK7kDYGmsRuYeYJcfJp1ztV2v+vV43NV3V2O7MSrc1bqy6bW+oOwOnX8Z78HZ5zSnFXv8AOtPSz5+DLjjCKyN0+Fyl/c9XfWro+Xs1e9pqpc/Z4a2GpPDTWuSzEeviPgDO78HwhWrdBzWW2WsR94sx1/DlHynT+FZNJYPzqjga2SFJHmrA+IneMK0MoIIPxGjPxf8AEfacuXI5cLjaVprZp39dfvX9R2XssMGFQhJSptqS5p7e2nzPp4Vg2Zf2nO1WMGKoU0Lr9HRYMfcr3vRHtHxBA1v783hmPQnsB+c6A5rbrCRvqTzsZw4+e9da1JyqqKFUa6BR0AnyPkl2JJ5tb5mJ6Ajy/wA+E5Ze39lj2Z4ezY91q2tv1fTx2PNHBk4+LJL7/Q47wCNHz8PjOgcVzhTktjt7jhLK26fZltgqf1djfw36Ts2DxVMizJvVh9Xxk7iuw9Fcn27bPw9msD4bPnOq8Tw+/wALN4m40LciijE30PdoWDN/nzVp7fwL8MbzTx5k6UUn1UpU4+qWr9UXP+IvFCOXE9bteMVd+j2Nx9HHDabsniGJfWl1LV1WcjqCEcEja+an2vEegm34P2bbhPF6RUWbD4hXdSAx2a7UU2hGP3uiNo+nNv1Of0OcObu8rNYf/JsWus+tde9n/qJH7s71xWytEWxxzGtuasfeNpUqAvx0xHzn6meR404yfJJ+i/Y+ZNRzTc4LeTa8m9DU9m/Yvyqx7isdeg0xA/h/Ka9iL+LvaSBVw+kc7n3QzKx8f3j/ANE+ytnxajpe8zctiUq9D4+16IN7J+OvSedfSB2jTBx34ZjWd5faS2fkD7zt1asfE+foOniTPF2DBJ41Hbd+Sbv2J+ISjkzaapNN+LS0+b18joHbnjH1zOycge7ZaeT/AOtQFT/8qJ16ZOdncxn3kktDyoRERRRERFARERQERLDBIlki2CRuZSRbKQSzFZlIGIliCEiWSVMCIiUCctJ0ROKI8SM/RiZwycHAzEIP2S1P58tyaBB+amd0xs9bKRaoLezsoui4I8V16z89fR320+pF8fIU24d5HeIOrVt4d4nx8Njz0PTr7NwrEJUZGBlV21P1GztT8G15/kZ+fz9ny9m7RLJCNwnvW6fU+niywy4Vjk6lDbo0z5f6Q4Yj3BcqmpbtjJxLwVRiRpiUYBkb+HwnQe0eLgVsThZfeDxFDVuwU+i26AI/HZ+M9Xu4WMnQzMTFs198nmYfhtdj85p+KdjeD0qbLlFC+pvtRfkC092GeGUdVLXk19v5Hlg8/Z58WOSjXNb+/wAPpt4HmeDxCwaCUqfjvlH8p2GjjK1KGyL1U/2VPifhvqx+WpruO5nCq9phYz2t4d/kPeKx+zXzAv8APXzmHAezGXcQ1OJrZ2Lsk93WvxC623yBnHtP4ViyLikuFeWr/wDU269FfQ9X/aTybS4vGTVekYRjfq66s7Fj8V72s3Wf7HiDw5jy3XfEn7q/AbY+o89Xx/iNl1ACK2PjWgpQh1Xdma+8Af6uhfEk+OgPPpureBU4ZVsjvOLcQI3RiKPs0PkxTwVf1m6eg3Obh3YS/KuOXxW3mZtf7LUdIqjwrZh4KP0V/Mzzdl/CuzYJ99Ll+VbpPw5yfWUq6JLc8ubtGSa7uPPfr6vZL+lX42dc7PcJbNFOFW/dYSuxvyfdbMvHtOlO+pA1+QBPho9m7U8HOfbi8Kxl7rDw+V8m1R7FZC6SlPV+Uk68uYE/H5+3ea1WRh4mIK6ygPIo9itQi946Hl90a7s7HmB4eM1/Gu1+Y+MFrrNLHkrYOAj2XOxXQUe/1B69FOvvbKj6OOMk04823q9be8n4v22MSinFp3oly0pbJe37npnC1orqSnHKBKh3SKp2By9CPj/53Mb00/MShsG+VrCAlYP6K72T/nflOmdgg92Vk2MzWV4x7iksdgd0gqDr+0C5+U0fajjbHKz7K2OqaFqQId8997iuo68Ce7BYfETHccU+Hmjo8ijBSpm97W5XEFFlXD8XJaywctuc6gOQN+xUDrlHj18PTqdzyS/sJxQklsW7ZOzvl3vx69Z6VV2rzKsd6CiiykOTfvVHdKpbmSw+I0p9kAka17I6jQ1cQusahWa5icc5V3ch98977rVuU713YU9TvZPqZ6cUpRi0kqXPXX3+7OMoJSW+uyqq9jp6/R7xM+GJcfw5T/jB+j3ig8cO4fiFH+M75wvKYZtIFttQT7Rhkd5twTyqaw2ydHZJHj0GvGc/azjl+ULsqrmXGxGVRy827SLEWxVdegA5hs76noNhCT0jlk5JacuvPbmWWNRi5W9HXLWun1PO/wDV9xLW/qtut637Gt/nNNxjg1+I4ryK2qcqHCtrZQkgN0Ph0P5T2btHnqV4dj0nTWvzM9fQvolryNeZ5E+T6nmX0jZYfOuQHa0cuMpHgVpUIT82DH5xiySnVqv919STgo6Jv28/0OqxEynYwYxESMFiIkAiIgCSWSAQRuBGoNFlklgyJIiVARESgRESA2nZ7hTZeRXQpCmxtc7e6gAJZj8AAT8p6T2e7OZeIwfFzbUZgCVWi/TjW/aQ9D09RNB9GOEN5Nz+4tYoJ8NC4kWMPwpS8zacDzWA4nxEkq4qNdbL0Zb8uzlDKfIhQ8w+OXEovZLknbb03EpQioykrtvm1SitdvE3/EvpFsx7WxM6preQgfWMSy3FZ1IBDAb6jr4ggT7OBZXA85mfuL2dQC7ZT2vygnQ27WEec6qDTxKruLdV5FasUZR4ebMijxXzasdR1ZB7yycKwX4fh3sw5LS/NWykHwAqqZWHQgi+9gR/Zgzk4KK4V8M9FSe98/L75mklKpv4oau66ata7P8A2et8PThdHWn6lUfVTSrfnvc2X9MYv/E4/wD3K/8AzPGsvjWRVw7GZsi3vcrIvuDl25lx6QK+UHxALEn46m3x+CcRddrlZ769ljWisgsHvoC16k6O13odQZyn2dx1nNbtc3dG8WZSdY8cnonvFb+dHqeLkUvs1PW++pNZVt/E6ly82qpea2xKlJ5Q1jKg36bPnPF+KtnYbc72G4KQGF6FLay2+Ukn2lB0QHrfxGtg9JseL9prbcJLuZhyKe6s39oLbG7srzDW3VEyPaAGwyHxJmZdnl8Li01J0mr38eZ0WWPxKSacVbTrbwatM7HjcKqv4muZ9bx7TplFNdqueQNzqwUDYPs1g9fBZzdpezPeW1XCyjGx8YraBsVoLBzfaMOXWwXJHUeU+T6OVssVLrnexkpssDWMX0Ln5VGz+rQG/vZru3HahrHrpxuZ2Y7oVOpY/wDEa8/PkH4v5IZlQk8nAnqtL8Fz8tzbyRUO8apUm+uuy83oY/6PJU9v1bimNVVczM6GygaLe8VDK3L4eHUfCfRk9ikVKSMqoVG1MvvXfRuuRXbnY8p5wFPN0I6L5CansFlNlt3d911q2W1VujvY6mo12WBdE9AWq0T6AD7xm7+k3iZp5VrYoyJWiFehWy1ubmGvAhKHH958ZuUMiy91etpffPYkcsJYe9rSm+Wy6bat/I3nabsyMzH7mg11K6qrWrpXKBQqANynmHLzDr6zrOf2RfHte85tWJ35rUBmqKgVV8iIhek+CbHT5zPsL2zUjurPZCgl0A/qx521gf7v1Qe54j2d8t+k/jJVgK3ZStVaI9bFTzXMbGIYfq0KPwt+MzGGSM1i2bdffoOODh326Sbvn5eds+YdnqWFjHiVL3vWUa421o1WPzAuK+WsKuzoFuXm9D1nPmdluGmgpVWxtKcouTFtKdRosrionwJ0dnrre+s0PFs96MTA27Pk202Xm2wl7KUsYFQhb3WKhOviAvTXMZzP2aViTY2Va4JDWBGCOR95GIYsvofP0nXu+BcU8lK9KV3Wl1oYjl7yXDix20k5XKKq/Fpt+hseH8EWm7Gu3e5xau7QNRlMCwAAsP2I0xCIp8tA9J5r2v7MvjDv2tWwvYUYcl9bhyvPzEWKvQ9TsTumR2fxKl53vKLsrsvWAGA3ytpDynXkRv4TqHbfjtVq1Y9B3XVslhzBS3KiKq8wDFQqDqQCSzHQ3N4n8S4ZWnvca26EyNu+8iotbVO3vraSVaHTpJZJ6TgJdSRFgSyRJQLJESASySwVGIlkEsBiWSWCCSWIBIiJbAgDcTkxx7Q/xkQbpHpGAPqvB99A9/O2j46sJoTX93Vln94T5c6008LxK9e1mX35jfpclQFNY16E85E7Fx/gnf11Y9dy11455VPNRYLESqutGB70dNi1v7wzDP4Er34dosHc4dOJStB+r7dafaYc3faHMxb85yxZ4RVv+Zv5LRHXL2bJKorkkt1z1b3OHifZ72K+55KsnHVE3WxRrHQ92Xs37rm1LAtg0OgVtbUzQcX4+11K0NWUv73d3iA7oGVFFZH2bbstJUdOY70NkTDtN2ispzy1VisaEShmGnrtIUC7mHg6s5s6ee52PhFeLxC7GzF5lai2p8ioFTYQh2EPMwLr0AFnjratvSmIyeNRnk1rVPmm+XkySgsnFHH8N6Vyklz8/qfPxqtf6SxcJiDVw+imqz0K019/kH5+2PxnrXBuIY9GNStmRjhynPZ9onW5yXfQ3v3maeW29lsj6xdlJnGu26y6wsta7AsJJXfe+GjqZ2cEygPteKXhPPk7igkenM16j+c45eCaj8Wy6PzfI64oSgpJxervePpuz7fpL7RJee4rVmdwlSIAe9KmxLCxTxBLV1qqnTe8deG+vdpFNWNw7h66a3d11vLog32WGtUBHjoh1/EGbPg68Ox7lrqtSy1+fmcWK1pXRZgcgha6tgEfZgsdj2xMq+DVfXMfKbJQJQMfloX6pte6QeDd/r39v4ec3jyLG0qdK3qt3stOSMZMHeptNXpGk9Et3q92bHifH68PEalCCru1et/1orVaUrBH3OWtXc/rhfFunWOA8coqJynygM2y4F2eu1uSkEEqpVdAtrR14LpR4mbO3hNK3/WrsmtqqVPdVHuO7oRdlSVFztaR1PKBt3I30Jms/wBYSc/KMb2N6BL+3y78Tpdc2vTpuZxRTxuKVt7u68aV9DrllWVTtJR/KmuLwt0/RIdleIpXn29wSanNj0a6ErS/f1gjyJWtk/fn3dv8s5eXVTWx3fc5X09sjHqP4apDf3nxnNlcLpfMrzEy6k7t620rYTC3u20H33665kVNjlHUmZnhdIzFyq8qsLWqpRU74QFapT3VRLjIPu6Vui9dGa72HerLrpHo99kYWCXcvF1e9r8tpvn1Rxcc4UHc24hSq6lk7sUkptCPsA/6NpXlIcdHJ5Tptc3X8nNfOsxcYV9y7XCt+Uto3WFKy4Q/1YConsjoNHWh0mrzu0jLnW30n2CzoqsOZGxx7K1up95eQKNfyM7jwe3GyLUzq7BTfWlg2zUl0uNbJW1i2uvecpIYWAksBpvaG26JvEk5LipaPmnzXivoc5pZbUfht6rlJJ6PXn4HYuJcJxcuoObQCzOyq3PW1a7Cp3b8rDXdpWCpBG12Cp3vRP2TrGgmRd1IA0KXVdnXMwWwHlHiTrwBnA3AW8f6WuJPiS1HU/E/W5jZwAsvLdxWx6z7yNbj8pH7+VqccbcI1HLp/a3/AIOmSEcruWG3/cl9H9TDhFrZGNl1Wt3gRSi2MS3s9xkWqN+YV6EYb8AXA6MZ5jd7x/Gehcf43i4uM2JiMLHdWR7FPOqq2hYzPoCyxgAu1AVV2Bskmedsdnc9EbblJKk3otuXTlZxltGN24qm/XbxpaWYzLcxETdmSyQYhgRLJJYERENgSySwVHHMxMZkDBRLJEELERBCRLEAQDJEtgzFp9Ze+b1nHEqbJwroXmmS2kTCJbYavc5frDesG9vWcUS8T6k4I9DLvD6zIXN6zjiS2Wl0Mzc3rJzTGIeoSS2M++b1MvfN6zjiLY4Y9CkzNbCPAzjiSynL3zepmPfN6zCJbfUlLoZFt+cxiJhlLERAEREAREQBERAJLEQaOOWJJAckTEGZSgREQZEREASSxAJERLYESyRYEREqYEREARESWBESyWCSxEAkSyRYLERAEREAREQBEhgGC0WSJYCIZjLuNwUkSRMgTMREoLJLEoYiIgyIiIBJYiGBERAEksQCRLEAksRAJLERdgREQBERAEkRCBYiIAiIgCQREFRZiYiCkiIgH//Z" width="100%"
+                            height="100%" />
+                    </a>
+                    <a class="card mx-5" href="./RR.html" style="width: 50%; height: 300px;">
+                        <img src="https://i.pinimg.com/originals/b2/18/30/b2183092ae61c3afc90f339137f76382.jpg" width="100%"
+                            height="100%" />
+        
+                    </a>
+                </div>
+                <div class="container ">
+                    <div class="mx-5 my-3" style="display: flex; flex-direction:row;">
+                        <a class="card mx-5" href="./RCB.html" style="width: 50%; height: 300px;">
+                            <img src="https://www.sportzcraazy.com/wp-content/uploads/2020/01/rcb-logo.jpg" width="100%"
+                                height="100%" />
+                        </a>
+                        <a class="card mx-5" href="./SRH.HTML" style="width: 50%; height: 300px;">
+                            <img src="https://wallpapercave.com/wp/wp4128423.jpg" width="100%"
+                                height="100%" />
+            
+                        </a>
+                    </div>
+                    <div class="container ">
+                        <div class="mx-5 my-3" style="display: flex; flex-direction:row;">
+                            <a class="card mx-5" href="./LSK.HTML" style="width: 50%; height: 300px;">
+                                <img src="https://static.toiimg.com/thumb/msid-89248103,width-1200,height-900,resizemode-4/.jpg" width="100%"
+                                    height="100%" />
+                            </a>
+                            <a class="card mx-5" href="./GDC.HTML" style="width: 50%; height: 300px;">
+                                <img src="https://pbs.twimg.com/media/FMCodg_akAIzQgC.jpg" width="100%"
+                                    height="100%" />
+                
+                            </a> 
+</body>
+
+</html>
