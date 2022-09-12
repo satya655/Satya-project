@@ -1,0 +1,91 @@
+ div{
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 40px;
+    padding: 25px;
+    width: 150px;
+    height: 750px;
+    border: 2px solid blueviolet;
+    
+}
+.b{
+    text-align: center;
+    background-color: mediumspringgreen;
+    padding: 2px;
+    color: aliceblue;
+}
+.c{
+    height: 40px;
+    width: 120px;
+    background-color:indigo;
+   
+}
+
+.a{
+
+}
+.d{
+    background-color: rgb(56, 0, 211);
+    height: 60px;
+    text-align: center;
+    color: aliceblue;
+}
+#e{
+    border: 2px solid orangered;
+    border-radius: 500px;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+  position: absolute;
+  top: 650px;
+  right: 400px;
+}
+#f{
+    background-color: rgb(141, 9, 97);
+    color:aliceblue;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    position:absolute;
+    top: 850px;
+    right: 200px;
+}
+aside{
+    background:linear-gradient(45 deg,orange);
+    width: 2s50px;
+    text-align:right;
+    height: 500px;
+}
+.g{
+    position:absolute;
+    right: 10px;
+    width: 280px;
+    top: 1120px;
+
+}
+.h{
+position: absolute;
+top:1120px ;
+right: 580px;
+width: 290px;
+}
+.i{
+width:280px ;
+}
+.j{
+    
+    position:absolute;
+    right: 10px;
+    width: 280px;
+    top: 2120px;
+}
+.k{
+    position: absolute;
+    right: 600px;
+    width: 280px;
+    top: 2120;
+    height: 300px;
+}
+.l{
+    width: 280px;
+}
