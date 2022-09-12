@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multistep Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form id="regsform" name="StudenSignupForm"  action="" onsubmit="return(scriptHTMLform());>
+        <div id="page1">
+            <div class="tab">Name  <span>*</span>
+                <P><input type="text" name="" id="firstname" placeholder="First" style="width:40%;" required>
+                    <input type="text" name="" id="lastname" placeholder="Last" style="width: 40%;" required>
+                </P>
+            </div>
+            <div class="tab">Date of Birth  <span>*</span>
+                <p>
+                    <input type="date" name="" id="dob" style="width: 81%;" required>
+                </p>
+                </P>
+            </div>
+            <div class="tab">Email  <span>*</span>
+                <p><input type="email" name="" id="email" style="width: 81%;" required></p>
+            </div>
+            <div class="tab">Father's Name  <span>*</span>
+                <P><input type="text" name="" id="father_fast" placeholder="First" style="width:40%" required>
+                    <input type="text" name="" id="father_last" placeholder="last" style="width:40%" required>
+                </P>
+            </div>
+            <div class="tab">Gender  <span>*</span>
+                <p> <input type="radio" name="gender" id="" value="M" required>M <br>
+                    <input type="radio" name="gender" id="" value="F" required>F
+                </p>
+            </div>
+            <div class="tab">Nationality  <span>*</span>
+                <P><input type="text" name="" id="" placeholder="" style="width:81%;" required>
+                </P>
+            </div>
+            <div class="tab">Home Address  <span>*</span>
+                <p><input type="text" name="" id="" placeholder="Street address" style="width: 81%;" required> <br>
+                    <input type="text" name="" id="" placeholder="City" style="width:40%;" required>
+                    <input type="text" name="" id="" placeholder="country" style="width:40%;" required>
+                </p>
+            </div>
+            <div class="tab">Telephone-Home
+                <P><input type="tel" name="" id="" size="10"  style="width: 81%;"></P>
+            </div>
+            <div class="tab">Telephone-Mobile <span>*</span>
+                <P><input type="tel" name="" id="" size="10" style="width: 81%;" required></P>
+            </div>
+            <div style = "display: flex; justify-content: right;" >
+                <span class="a">
+                    page 1
+                </span>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div class="tab">HSC Institution name  <span>*</span>
+                <P><input type="text" name="" id="" placeholder=" " style="width:81%;" required>
+                      </P>
+                
+            </div>
+            <div class="tab">HSC Board <span>*</span>   
+                <select required> 
+                 <option value="Board">BOARD</option>         
+             <option value="CBSC">CBSC</option>  
+             <option value="ICSC">ISCS</option>  
+             <option value="State Board">State Board</option>    
+             </select>  
+             </div>  
+            <!-- <div class="tab">HSC board  <span>*</span>
+                <p><input type="radio" name="" id="" value="CBSC">CBSC</p>
+                <p><input type="radio" name="" id="" value="ICSC">ICSC</p>
+                <p><input type="radio" name="" id="" value="State board">STATE BOARD</p>
+            </div> -->
+            <div class="tab">Score in HSC in percentage
+                <span id="percent-sign">%</span>  <span>*</span>
+                 <p>
+                    <input type="number" name="" id="" min="0" max="100" step="0.1" required></p>
+            </div>
+            <div class="tab">SSC Institution name  <span>*</span>
+                <P><input type="text" name="" id="" placeholder=" " style="width:81%; " required>
+                      </P>
+                
+            </div>
+            <div class="tab">SSC Board <span>*</span>   
+                   <select required> 
+                    <option value="Board">BOARD</option>         
+                <option value="CBSC">CBSC</option>  
+                <option value="ICSC">ISCS</option>  
+                <option value="State Board">State Board</option>    
+                </select>  
+                </div>  
+            <!-- <div class="tab">SSC board  <span>*</span>
+                <p><input type="radio" name="" id="" value="CBSC">CBSC</p>
+                <p><input type="radio" name="" id="" value="ICSC">ICSC</p>
+                <p><input type="radio" name="" id="" value="State board">STATE BOARD</p>
+            </div> -->
+            <div class="tab">Score in HSC in percentage
+                <span id="percent-sign">%</span>  <span>*</span>
+                 <p>
+                    <input type="number" name="" id="" min="0" max="100" step="0.1" required></p>
+                    <div class="tab">Current Degree  <span>*</span>
+                        <!-- <P><input type="text" name="" id="" style="width: 81%;"></P> -->
+                        <select required>  
+                            <option value="Degree">Degree</option>  
+                            <option value="BCA">BCA</option>  
+                            <option value="BBA">BBA</option>  
+                            <option value="B.Tech">B.Tech</option>  
+                            <option value="MBA">MBA</option>  
+                            <option value="MCA">MCA</option>  
+                            <option value="M.Tech">M.Tech</option>  
+                            <option value="BSC">BSC</option> 
+                            </select>
+            </div>
+            <div class="tab">Current Education Institution Name  <span>*</span>
+                <P><input type="text" name="" id="" style="width: 81%;" required></P>
+            </div>
+            <div class="tab">Overall percentage
+                <span id="percent-sign">%</span> <span>*</span>
+                 <p>
+                    <input type="number" name="" id="" min="0" max="100" step="0.1" required></p>
+            </div>
+            <div class="tab">Current backlog if any <span>*</span>
+                <p> <input type="radio" name="backlog" id="" value="yes">yes<br>
+                    <input type="radio" name="backlog" id="" value="no">no
+                </p>
+        </div>
+        <div style = "display: flex; justify-content: right;">
+            <span class="a">
+                page 2
+            </span>
+        </div>
+        </div>
+        <div id="page3">
+            <div class="tab">Passport Size photo <span>*</span>
+           <p>Upload Image<input type="file" name="" id=""  accept="Image/*" >
+        </p> </div>
+        <div class="tab">HSC mark sheet <span>*</span>
+            <p>Upload file1<input type="file" name="ff" id=""  accept=".doc,.docx,.pdf,Image/*" >
+         </p> </div>
+         <div class="tab">SSC mark sheet <span>*</span>
+            <p>Upload file2<input type="file" name="" id=""  accept=".pdf,.doc,.docx,Image/*" >
+         </p> </div>
+         <div class="tab">All Semesters mark sheets <span>*</span>
+            <p>Upload file3<input type="file" name="" id=""  accept=".pdf,.doc,.docx" >
+         </p> </div>
+        <div>
+            <button type="submit" VALUE="SUBMIT"> SUBMIT </button>
+        </div> 
+         <div style = "display: flex; justify-content: right;">
+            <span class="a">
+                page 3
+            </span>
+        </div>
+        </div>
+    </form>
+    </body>
+    <script>
+ let name,email,psw;
+ name=document.getElementById("name").value;
+ name=document.getElementById("email").value; 
+ 
+ name=document.getElementById("psw").value; 
+
+ localStorage.setItem("name"name)
+ localStorage.setItem("email",email)
+ localStorage.setItem("psw",psw)
+
+    </script>
+</html>
